@@ -1,10 +1,7 @@
-
-# VERSION 0.01
-#
-# Flask on Ubuntu Alpine
+# Flask on Debian
 #
 
-FROM frolvlad/alpine-python2
+FROM python:2-slim
 MAINTAINER Mateusz Kuzak <mateusz.kuzak@gmail.com> | github.com/mkuzak
 
 RUN pip install Flask
